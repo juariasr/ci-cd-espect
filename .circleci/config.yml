@@ -26,8 +26,7 @@ workflows:
       - test
       - build_deploy:
           requires:
-            - test
-            
+            - test            
           filters:
             branches:
               only:
