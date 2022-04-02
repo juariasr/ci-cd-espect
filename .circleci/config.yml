@@ -25,5 +25,5 @@ workflows:
     jobs:
       - test
       - build_deploy:
-          required:
+          requires:
             - test
