@@ -19,7 +19,7 @@ jobs:
             --acl public-read \
             --cache-control "max-age=86400"
           from: build
-          to: 's3://ci-cd-espec1.s3'
+          to: 's3://ci-cd-espec1'
 workflows:
   test_build_deploy:
     jobs:
